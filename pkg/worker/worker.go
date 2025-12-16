@@ -11,8 +11,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/JyotinderSingh/task-queue/pkg/common"
-	pb "github.com/JyotinderSingh/task-queue/pkg/grpcapi"
+	"github.com/bin5181/Task-Scheduler-Algorithm/pkg/common"
+	pb "github.com/bin5181/Task-Scheduler-Algorithm/pkg/grpcapi"
 	"github.com/google/uuid"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
