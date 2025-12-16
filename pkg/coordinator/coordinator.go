@@ -15,11 +15,11 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	pb "github.com/JyotinderSingh/task-queue/pkg/grpcapi"
+	pb "github.com/bin5181/Task-Scheduler-Algorithm/pkg/grpcapi"
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v4/pgxpool"
 
-	"github.com/JyotinderSingh/task-queue/pkg/common"
+	"github.com/bin5181/Task-Scheduler-Algorithm/pkg/common"
 )
 
 const (
